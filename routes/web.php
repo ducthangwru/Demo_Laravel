@@ -19,7 +19,9 @@ Route::get('test', function () {
     return view('test.test_blade');
 });
 
-Route::get('post/{id}', 'PostController@findOne')->name('profile');
+Route::get('post/{id}', 'PostController@findOne');
+Route::get('post', 'PostController@filterPost');
+Route::post('post', 'PostController@insertPost');
 
 Route::group(['middleware' => 'auth'], function () {
     Route::get('/profile', function () {
