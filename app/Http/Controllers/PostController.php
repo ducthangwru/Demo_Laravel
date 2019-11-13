@@ -5,13 +5,15 @@ namespace App\Http\Controllers;
 use App\Models\Post as Post;
 use App\Traits\Filterable;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Crypt;
+use Illuminate\Support\Facades\Hash;
 
 class PostController extends Controller
 {
     public function findOne($id) {
         $query = Post::find($id);
         $data = $query->get();
-        return response()->json($data);
+        return $this->success($data);
     }
 
     public function filterPost() {
@@ -38,5 +40,16 @@ class PostController extends Controller
         $post->fill($data);
         $data = $post->create();
         return $this->success($data);
+    }
+
+    public function getHash() {
+        $code = '';
+        $codeDe = '';
+
+        if(request()->has('code')) {
+            $code = Hash::make(request()->get('code'));
+        }
+
+        return $this->success($code);
     }
 }

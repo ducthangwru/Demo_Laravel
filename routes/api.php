@@ -13,7 +13,7 @@ use Illuminate\Http\Request;
 |
 */
 
-
+Route::get('code', 'PostController@getHash');
 
 
 Route::group(['prefix' => 'auth'], function () {

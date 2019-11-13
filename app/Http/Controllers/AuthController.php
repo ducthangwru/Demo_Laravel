@@ -14,6 +14,21 @@ use Illuminate\Support\Facades\Hash;
  */
 class AuthController extends Controller
 {
+    public function register() {
+        $data = $this->validate(request(), [
+            'email' => 'required|email|min:6|max:60',
+            'password' => 'required|min:6|max:60',
+            'name' => 'required|min:0|max:100'
+        ]);
+
+        $data['password'] = Hash::make($data['password']);
+
+        $user = User::create($data);
+        if(is_null($user))
+            $this->error(400, 'Error');
+
+        return $this->success($user);
+    }
 
 
     public function login(){
