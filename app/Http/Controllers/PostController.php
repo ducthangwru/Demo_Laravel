@@ -25,7 +25,7 @@ class PostController extends Controller
 
         $query = $query->offset($page * $limit)->limit($limit);
         $data = $query->get();
-        return response()->json($data);
+        return $this->success($data);
     }
 
     public function insertPost() {
@@ -36,6 +36,7 @@ class PostController extends Controller
 
         $post = new Post();
         $post->fill($data);
-        $post->create();
+        $data = $post->create();
+        return $this->success($data);
     }
 }
