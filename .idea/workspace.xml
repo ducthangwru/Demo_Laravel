@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e9f1b75-9418-43f0-951d-06b2d6fdc068" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/laravel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.rnd" beforeDir="false" afterPath="$PROJECT_DIR$/.rnd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AuthController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Traits/JsonResponse.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Traits/JsonResponse.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -133,9 +129,19 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1TTZKM4Rut21jmMan9UY7eaaH16" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -148,18 +154,6 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\laravel\app\Models" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -180,6 +174,8 @@
       <workItem from="1573485983413" duration="331000" />
       <workItem from="1573486329821" duration="5239000" />
       <workItem from="1573565588746" duration="9462000" />
+      <workItem from="1585536496793" duration="204000" />
+      <workItem from="1585536716781" duration="2834000" />
     </task>
     <servers />
   </component>
@@ -198,6 +194,31 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1815" height="295" key="GridCell.Tab.0.bottom" timestamp="1585536955624">
+      <screen x="1502" y="-104" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="295" key="GridCell.Tab.0.bottom/62.0.1378.900/1502.-104.1858.1080@1502.-104.1858.1080" timestamp="1585536955624" />
+    <state width="1815" height="295" key="GridCell.Tab.0.center" timestamp="1585536955624">
+      <screen x="1502" y="-104" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="295" key="GridCell.Tab.0.center/62.0.1378.900/1502.-104.1858.1080@1502.-104.1858.1080" timestamp="1585536955624" />
+    <state width="1815" height="295" key="GridCell.Tab.0.left" timestamp="1585536955624">
+      <screen x="1502" y="-104" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="295" key="GridCell.Tab.0.left/62.0.1378.900/1502.-104.1858.1080@1502.-104.1858.1080" timestamp="1585536955624" />
+    <state width="1815" height="295" key="GridCell.Tab.0.right" timestamp="1585536955624">
+      <screen x="1502" y="-104" width="1858" height="1080" />
+    </state>
+    <state width="1815" height="295" key="GridCell.Tab.0.right/62.0.1378.900/1502.-104.1858.1080@1502.-104.1858.1080" timestamp="1585536955624" />
+    <state x="2085" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1585536499335">
+      <screen x="1502" y="-104" width="1858" height="1080" />
+    </state>
+    <state x="2085" y="189" key="com.intellij.ide.util.TipDialog/62.0.1378.900/1502.-104.1858.1080@1502.-104.1858.1080" timestamp="1585536499335" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
